@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Moon.Linq</id>
+    <version>1.0.1</version>
+    <title />
+    <authors>jiri.tuma</authors>
+    <owners>jiri.tuma</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension IQueryable  ContainsQueryOrder vrací jestli  IQueryable obsahuje OrderBy, OrderByDescending, ThenBy,ThenByDescending</description>
+  </metadata>
+</package>

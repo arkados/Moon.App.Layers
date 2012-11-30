@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.DAL", "Moon.Dal\Moon.DAL.csproj", "{F25739DA-5BD1-4B58-990A-3F34A1429557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.BLL", "Moon.BLL\Moon.BLL.csproj", "{39F6CDA2-111F-486B-9DDA-10C51788ECCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.DAL.EF", "Moon.DAL.EF\Moon.DAL.EF.csproj", "{7783765E-DB39-40C4-BB3F-CDA7BFB8430A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.DAL.WCF.DataService", "Moon.DAL.WCF.DataService\Moon.DAL.WCF.DataService.csproj", "{E5972D33-0371-4622-8E09-6FC1AC86E6A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7783765E-DB39-40C4-BB3F-CDA7BFB8430A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7783765E-DB39-40C4-BB3F-CDA7BFB8430A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7783765E-DB39-40C4-BB3F-CDA7BFB8430A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7783765E-DB39-40C4-BB3F-CDA7BFB8430A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5972D33-0371-4622-8E09-6FC1AC86E6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5972D33-0371-4622-8E09-6FC1AC86E6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5972D33-0371-4622-8E09-6FC1AC86E6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5972D33-0371-4622-8E09-6FC1AC86E6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

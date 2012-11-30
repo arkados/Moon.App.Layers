@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ExIOrderedQueryable</id>
+    <version>1.0.0</version>
+    <title>Extension OrderedQueryable</title>
+    <authors>Jiří Tůma</authors>
+    <owners>Jiří Tůma</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+    <summary>Rozšiřuje IQeuryable O možnost předání stringu.</summary>
+  </metadata>
+</package>
