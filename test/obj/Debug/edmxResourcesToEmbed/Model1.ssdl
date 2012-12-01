@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HotelsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HotelsModelStoreContainer">
+    <EntitySet Name="Language" EntityType="HotelsModel.Store.Language" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="LanguageId" />
+    </Key>
+    <Property Name="LanguageId" Type="int" Nullable="false" />
+    <Property Name="LanguageCode" Type="nvarchar" Nullable="false" MaxLength="5" />
+    <Property Name="LanguageName" Type="nvarchar" Nullable="false" MaxLength="5" />
+    <Property Name="LanguagePriority" Type="int" Nullable="false" />
+    <Property Name="LanguageGlobalStatusId" Type="int" Nullable="false" />
+    <Property Name="LanguageDefault" Type="bit" Nullable="false" />
+  </EntityType>
+</Schema>

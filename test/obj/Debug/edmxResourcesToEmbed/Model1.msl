@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HotelsModelStoreContainer" CdmEntityContainer="HotelsEntities">
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="HotelsModel.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="LanguageCode" ColumnName="LanguageCode" />
+          <ScalarProperty Name="LanguageName" ColumnName="LanguageName" />
+          <ScalarProperty Name="LanguagePriority" ColumnName="LanguagePriority" />
+          <ScalarProperty Name="LanguageGlobalStatusId" ColumnName="LanguageGlobalStatusId" />
+          <ScalarProperty Name="LanguageDefault" ColumnName="LanguageDefault" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

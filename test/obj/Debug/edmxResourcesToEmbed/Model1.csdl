@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HotelsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HotelsEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Languages" EntityType="HotelsModel.Language" />
+  </EntityContainer>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="LanguageId" />
+    </Key>
+    <Property Name="LanguageId" Type="Int32" Nullable="false" />
+    <Property Name="LanguageCode" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="LanguageName" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="LanguagePriority" Type="Int32" Nullable="false" />
+    <Property Name="LanguageGlobalStatusId" Type="Int32" Nullable="false" />
+    <Property Name="LanguageDefault" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

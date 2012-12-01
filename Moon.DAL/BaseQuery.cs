@@ -9,7 +9,6 @@ namespace Moon.DAL
 {
     public abstract class BaseQuery<T> : IQuery<T>
     {
-      
         protected Expression<Func<T, object>>[] IncludeProperties { get; set; }
 
         /// <summary>
